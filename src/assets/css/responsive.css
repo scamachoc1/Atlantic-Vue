@@ -1,0 +1,85 @@
+@media screen and (max-width:800px) {
+    * {
+        font-size: 101% !important;
+        letter-spacing: 1px;
+    }
+
+    .boxes {
+        display: block;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: all 1s;
+    }
+
+    .notif-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 1s;
+    }
+
+    .msg-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 1s;
+    }
+
+    .empty {
+        display: none;
+        transition: all 1s;
+    }
+
+    .sub-main_2 {
+        width: 108%;
+        transition: all 1s;
+    }
+
+    .payment-boxes {
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .payment-box_1,
+    .payment-box_2,
+    .payment-box_3,
+    .payment-box_4 {
+        border: 1px solid rgb(92, 92, 92) !important;
+        margin-top: 20px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        border-radius: 5px;
+    }
+
+    .report-charts {
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .reports-chart_1,
+    .reports-chart_2,
+    .reports-chart_3 {
+        margin-bottom: 15px;
+    }
+
+    .reportanddate {
+
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .report-name{
+        margin-bottom: 45px;
+    }
+}

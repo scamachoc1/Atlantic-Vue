@@ -1,0 +1,65 @@
+.boxes {
+    display: flex;
+    text-align: center;
+    justify-content: left;
+    align-items: left;
+    margin-top: 29px;
+    margin-bottom: 39px;   
+
+}
+
+.boxes .box-number {
+    text-align: center;
+    font: normal normal bold 35px/40px Arial;
+    letter-spacing: 0px;
+    color: #23B574;
+    opacity: 1;
+}
+
+.box-1,
+.box-2,
+.box-3 {
+    background-color: #F6FFFB;
+    border: 1px solid #E9E9E9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    /*border: 1px solid black;*/
+}
+
+.box-1_number,
+.box-2_number,
+.box-3_number {
+    margin-right: 25px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    margin-left: 21px;
+}
+
+.box-1_text,
+.box-2_text,
+.box-3_text {
+    margin-right: 25px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    margin-left: 21px;
+}
+
+.box-1 {
+    padding-right: 7px;
+}
+
+.boxes .box-text {
+    text-align: left;
+    font: normal normal normal 14px/20px Arial;
+    letter-spacing: 0px;
+    color: #303030;
+    opacity: 1;
+}
+
+/*
+Responsive:
+
+stack boxes under 800px
+*/
