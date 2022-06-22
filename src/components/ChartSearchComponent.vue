@@ -2,7 +2,7 @@
 <template>
   <div class="chart-container">
     <header class="data-chart_header">
-      <input type="text" class="chart-input" placeholder= "Search"/>
+      <input type="text" class="chart-input" placeholder="&#xf002; Search" />
       <div class="chart_left-container">
         <div class="all-shipments">
           All Shipments
@@ -24,15 +24,17 @@
 </template>
 
 <script>
-import ChartComponent from './ChartComponent.vue'
+import ChartComponent from "./ChartComponent.vue";
 export default {
-    components: {
-        ChartComponent,
-    },
-    str: 'Search',
-}
+  components: {
+    ChartComponent,
+  },
+  str: "Search",
+};
 </script>
 
 <style>
-@import '../assets/css/home/chart.css';
+@import "../assets/css/home/chart.css";
+
+@import url("https://kit.fontawesome.com/f06cab23b4.js");
 </style>

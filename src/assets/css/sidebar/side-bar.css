@@ -40,7 +40,7 @@
 .router-link-exact-active i{
     opacity: 1 !important;
 }
-.router-link-active.router-link-exact-active:after{
+.router-link-active:after{
     content: "";
     height: 36px;
     top: -7px;
@@ -50,7 +50,6 @@
     right: 0;
     position: absolute;
     margin-bottom: 2px;
-    opacity: 1!important;
 }
 .nav-bar_item{
     /*opacity: 0.4;*/
@@ -62,4 +61,7 @@
     opacity: .4;
     color:#23B574;
     font-size: 22px;
+}
+.nav-bar_item i:hover{
+    opacity: 1;
 }

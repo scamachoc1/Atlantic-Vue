@@ -1,7 +1,8 @@
-.info-container{
+.info-container {
     margin-top: 50px;
     margin-left: 29px;
 }
+
 .info-light-text {
 
     text-align: left;
@@ -14,7 +15,8 @@
     padding-top: 9px;
     padding-bottom: 9px;
 }
-.info-container div{
+
+.info-container div {
     margin-top: 28px;
     margin-bottom: 28px;
 }
@@ -25,26 +27,39 @@
     letter-spacing: 0px;
     color: #303030;
 }
-.info-bold-text{
+
+.info-bold-text {
     font-weight: bolder;
     font-size: 130%;
 }
+
 .double-info-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
-.billing-info i{
+
+.billing-info i {
     opacity: 0.4;
     margin-top: auto;
     margin-bottom: auto;
     margin-right: 15px;
 }
 
-.billing-info{
+.billing-info {
     display: flex;
     border: 1px solid var(--border-color);
     border-radius: 5px;
 }
-.icon.fa-solid.fa-envelope{
+
+.icon.fa-solid.fa-envelope {
     font-size: 32px;
+}
+
+.email {
+
+    text-align: left;
+    text-decoration: underline;
+    font: normal normal normal 14px/20px Arial;
+    letter-spacing: 0px;
+    color: #23B574;
 }

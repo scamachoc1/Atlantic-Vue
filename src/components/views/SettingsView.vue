@@ -4,14 +4,14 @@
     <div class="personal-info">
       <p class="info-bold-text">Personal Information</p>
       <p class="info-light-text">
-        To Update your personal information notify broker@atnalnticft.com
+        To Update your personal information notify <span class="email">broker@atlanticft.com</span>
       </p>
     </div>
     <div class="line"></div>
     <div class="account-name">
       <p class="info-normal-text">Account Name</p>
       <div class="double-info-container">
-        <p class="info-light-text">To edit this notify broker@atlanticft.com</p>
+        <p class="info-light-text">To edit this notify <span class="email">broker@atlanticft.com</span></p>
         <p class="info-light-text">JR Classics Inc</p>
       </div>
     </div>
@@ -20,7 +20,7 @@
     <div class="account-adress">
       <p class="info-normal-text">Account Adress</p>
       <div class="double-info-container">
-        <p class="info-light-text">To edit this notify broker@atlanticft.com</p>
+        <p class="info-light-text">To edit this notify <span class="email">broker@atlanticft.com</span></p>
         <p class="info-light-text">123 First Street, Brooklyn NY 12121</p>
       </div>
     </div>
