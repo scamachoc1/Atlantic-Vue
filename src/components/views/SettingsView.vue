@@ -48,7 +48,7 @@
 </template>
 
 <script>
-import MsgComponent from "../MsgComponent.vue";
+import MsgComponent from "../MsgComponent.vue"; 
 export default {
   components: {
     MsgComponent,
