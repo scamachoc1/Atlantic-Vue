@@ -34,29 +34,32 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
 
 }
-.nav-bar_item-1 a{
-    display: flex;
-    flex-direction: row;
+.router-link-exact-active i{
+    opacity: 1 !important;
 }
-
-/*
-.icon-selector_item-1 {
-    position: absolute;
-    float: right;
-    padding-left: auto;
-    width: 4px;
-    height: 37px;
+.router-link-active.router-link-exact-active:after{
+    content: "";
+    height: 36px;
+    top: -7px;
+    width: 4.5px;
     background: #23B574 0% 0% no-repeat padding-box;
     border-radius: 5px 0px 0px 5px;
-}*/
-
-/*
-.nav-bar_item-1,
-.nav-bar_item-2,
-.nav-bar_item-3,
-.nav-bar_item-4,
-.nav-bar_item-5{
+    right: 0;
+    position: absolute;
+    margin-bottom: 2px;
+    opacity: 1!important;
 }
-*/
+.nav-bar_item{
+    /*opacity: 0.4;*/
+    position: relative;
+    text-align: center;
+    width: 101px;
+}
+.nav-bar_item i{
+    opacity: .4;
+    color:#23B574;
+    font-size: 22px;
+}

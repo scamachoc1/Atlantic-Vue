@@ -3,6 +3,8 @@
     grid-template-columns: repeat(5, 1fr);
     grid-template-areas: "box1 box1 box2 box3 box4";
     margin-left: 2.3%;
+    margin-top: 23px;
+    margin-left: 10px;
 }
 
 .box-text-title {
@@ -21,31 +23,30 @@
     letter-spacing: 0px;
     color: #303030;
 }
-.payment-box_1,
-.payment-box_2,
-.payment-box_3,
-.payment-box_4{
+.payment-box{
     border: 1px solid #E9E9E9;
+    border-radius: 5px;
+    padding: 5px;
 }
 
-.payment-box_1 {
+.payment-box.n1 {
     grid-area: box1;
     margin-right: 17.5px;
 }
 
-.payment-box_2 {
+.payment-box.n2 {
     grid-area: box2;
     margin-right: 17.5px;
     margin-left: 17.5px;;
 }
 
-.payment-box_3 {
+.payment-box.n3 {
     grid-area: box3;
     margin-right: 17.5px;
     margin-left: 17.5px;;
 }
 
-.payment-box_4 {
+.payment-box.n4 {
     grid-area: box4;
     margin-right: 17.5px;
 }

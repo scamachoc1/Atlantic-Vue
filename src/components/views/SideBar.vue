@@ -3,45 +3,34 @@
     <div class="side-bar">
       <!--<img class="nav-bar_main-img" src="imgs/Atlantic Globe Green (2).png" alt="main img">-->
       <div class="nav-bar_main-img">
-        <router-link to="/">
-          <img src="../../assets/imgs/main-img.png" alt="main img" />
-        </router-link>
+        <img src="../../assets/imgs/main-img.png" alt="main img" />
       </div>
       <div class="nav-bar_items">
         <ul class="nav-bar_list">
-          <li class="nav-bar_item-1">
+          <li class="nav-bar_item">
             <router-link to="/">
-              <img class="home-logo" src="../../assets/imgs/house-solid.svg" />
+              <i class="icon fa-solid fa-house"></i>
             </router-link>
           </li>
           <!--<div class="icon-selector_item-1"></div>-->
-          <li class="nav-bar_item-2">
+          <li class="nav-bar_item">
             <router-link to="/shipments">
-              <img class="ship-logo" src="../../assets/imgs/ship-solid.svg" />
+              <i class="fa-solid fa-ship icon"></i>
             </router-link>
           </li>
-          <li class="nav-bar_item-3">
+          <li class="nav-bar_item">
             <router-link to="/billing">
-              <img
-                class="bills-logo"
-                src="../../assets/imgs/money-bills-solid.svg"
-              />
+              <i class="fa-solid fa-money-bills icon"></i>
             </router-link>
           </li>
-          <li class="nav-bar_item-4">
+          <li class="nav-bar_item">
             <router-link to="/reports">
-              <img
-                class="chart-logo"
-                src="../../assets/imgs/chart-simple-solid.svg"
-              />
+              <i class="fa-solid fa-chart-simple icon"></i>
             </router-link>
           </li>
-          <li class="nav-bar_item-5">
+          <li class="nav-bar_item">
             <router-link to="/settings">
-              <img
-                class="settings-logo"
-                src="../../assets/imgs/sliders-solid.svg"
-              />
+              <i class="fa-solid fa-sliders icon"></i>
             </router-link>
           </li>
         </ul>
@@ -63,6 +52,6 @@ export default {};
 <style>
 @import "../../assets/css/sidebar/side-bar.css";
 
-@import '../../assets/css/main.css';
-@import '../../assets/css/responsive.css';
+@import "../../assets/css/main.css";
+@import "../../assets/css/responsive.css";
 </style>

@@ -3,7 +3,9 @@
         font-size: 101% !important;
         letter-spacing: 1px;
     }
-
+    .main-container{
+        border-right: none;
+    }
     .boxes {
         display: block;
         flex-direction: column;

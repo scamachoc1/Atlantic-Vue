@@ -1,5 +1,6 @@
 .info-container{
     margin-top: 50px;
+    margin-left: 29px;
 }
 .info-light-text {
 
@@ -41,4 +42,9 @@
 
 .billing-info{
     display: flex;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+}
+.icon.fa-solid.fa-envelope{
+    font-size: 32px;
 }

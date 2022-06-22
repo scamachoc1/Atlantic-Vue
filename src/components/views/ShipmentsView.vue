@@ -1,6 +1,5 @@
 <template>
   <MsgComponent msg='Shipments'/>
-  <div class="line"></div>
   <NotifContainerComponent />
   <ChartSearchComponent />
 </template>

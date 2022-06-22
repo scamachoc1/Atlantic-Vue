@@ -2,7 +2,7 @@
   <MsgComponent msg="Billing" />
   <MsgComponent msg="Payment Methods" id="payment"/>
   <div class="payment-boxes">
-    <div class="payment-box_1">
+    <div class="payment-box n1">
       <div class="box-text-title">ACH/Wire</div>
       <div class="box-1_info">
         <div class="box-1_info-1">
@@ -15,21 +15,21 @@
         </div>
       </div>
     </div>
-    <div class="payment-box_2">
+    <div class="payment-box n2">
       <div class="box-text-title">Quickpay/Zelle</div>
       <div class="box-text">
         username is <br />
         hillel@atlanticfb.com
       </div>
     </div>
-    <div class="payment-box_3">
+    <div class="payment-box n3">
       <div class="box-text-title">Email Check Image</div>
       <div class="box-text">
         send to <br />
         hillel@atlanticfb.com
       </div>
     </div>
-    <div class="payment-box_4">
+    <div class="payment-box n4">
       <div class="box-text-title">Mail Check</div>
       <div class="box-text">
         Atlantic Freight Brokers <br />
