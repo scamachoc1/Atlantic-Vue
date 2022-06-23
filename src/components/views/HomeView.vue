@@ -1,40 +1,46 @@
 <template>
-  <MsgComponent msg='Good Morning, JR Classics!'/>
+  <MsgComponent msg="Good Morning, JR Classics!" />
   <NotifContainerComponent />
   <div class="boxes">
-    <div class="box-1">
-      <div class="box-1_number">
-        <p class="box-number">15</p>
+    <router-link to="/shipments">
+      <div class="box box-1">
+        <div class="box-1_number">
+          <p class="box-number">15</p>
+        </div>
+        <div class="box-1-text">
+          <p class="box-text">
+            Shipments <br />
+            Needing Uploads
+          </p>
+        </div>
       </div>
-      <div class="box-1-text">
-        <p class="box-text">
-          Shipments <br />
-          Needing Uploads
-        </p>
+    </router-link>
+    <router-link to="/shipments">
+      <div class=" box box-2">
+        <div class="box-2_number">
+          <p class="box-number">2</p>
+        </div>
+        <div class="box-2_text">
+          <p class="box-text">
+            7501 Forms <br />
+            to Review
+          </p>
+        </div>
       </div>
-    </div>
-    <div class="box-2">
-      <div class="box-2_number">
-        <p class="box-number">2</p>
+    </router-link>
+    <router-link to="/shipments">
+      <div class="box box-3">
+        <div class="box-3_number">
+          <p class="box-number">2</p>
+        </div>
+        <div class="box-3_text">
+          <p class="box-text">
+            Invoices <br />
+            Due
+          </p>
+        </div>
       </div>
-      <div class="box-2_text">
-        <p class="box-text">
-          7501 Forms <br />
-          to Review
-        </p>
-      </div>
-    </div>
-    <div class="box-3">
-      <div class="box-3_number">
-        <p class="box-number">2</p>
-      </div>
-      <div class="box-3_text">
-        <p class="box-text">
-          Invoices <br />
-          Due
-        </p>
-      </div>
-    </div>
+    </router-link>
   </div>
   <!--DATA-CHART CONTAINER-->
   <div class="chart-container">

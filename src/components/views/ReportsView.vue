@@ -17,7 +17,7 @@
     <MsgComponent msg="Recent Reports" />
     <div class="reportanddate">
       <div class="report-name">
-        <div class="date-filter">
+        <div class="date-filter report">
           <div class="filter-text"><p class="report-bold">Report Name</p></div>
           <button class="filter-button">
             <i class="fa-solid fa-angle-down"></i>
@@ -28,7 +28,7 @@
         </div>
       </div>
       <div class="report-date">
-        <div class="date-filter">
+        <div class="date-filter report">
           <div class="filter-text"><p class="report-bold">Date</p></div>
           <button class="filter-button">
             <i class="fa-solid fa-angle-down"></i>

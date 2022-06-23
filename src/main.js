@@ -4,6 +4,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 import HomeView from './components/views/HomeView.vue'
 import ShipmentsView from './components/views/ShipmentsView.vue'
+import ShipmentIdView from './components/views/ShipmentIdView.vue';
 import BillingView from './components/views/BillingView';
 import SettingsView from './components/views/SettingsView';
 import ReportsView from './components/views/ReportsView';
@@ -13,6 +14,7 @@ const router = createRouter({
     routes: [
         {path:'/', name: 'Home', component: HomeView},
         {path:'/shipments', name: 'Shipment', component: ShipmentsView},
+        {path:'/shipments/id', name: 'ShipmentId', component: ShipmentIdView},
         {path:'/billing', name: 'Billing', component: BillingView},
         {path:'/reports', name: 'Reports', component: ReportsView},
         {path:'/settings', name: 'Settings', component: SettingsView},

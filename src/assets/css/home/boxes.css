@@ -58,6 +58,15 @@
     opacity: 1;
 }
 
+.box{
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+}
+
+.box:hover{
+    
+    border: 1px solid #23B574;
+}
 /*
 Responsive:
 

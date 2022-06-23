@@ -1,0 +1,95 @@
+.process-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background: #23B574;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.process-icon.icon1 {
+    background-color: white;
+    border: 3px solid #23B574;
+}
+
+.process-icon.icon1 i {
+    font-size: 170%;
+    color: #23B574;
+}
+
+.process-icon.icon2 {
+    border: 3px solid #23B574;
+    color: white;
+}
+
+.process-icon.icon3 {
+    background: white;
+    border: 3px solid var(--border-color);
+}
+
+.process-icon-text.text3 {
+    color: black;
+}
+
+.process-icon-text {
+    font-size: 14px;
+}
+
+.submit-process {
+    margin-left: 29px;
+    margin-top: 28px;
+}
+
+.submit-process-step {
+    margin: 10px 15px;
+}
+
+
+.process-title {
+    padding: 7px;
+    margin-left: 10px;
+}
+
+.submitted-text {
+    text-align: left;
+    font: normal normal normal 14px/16px Arial;
+    letter-spacing: 0px;
+    color: #23B574;
+    font-size: 14px;
+}
+
+.next-step-text {
+    text-align: left;
+    font: normal normal bold 14px/16px Arial;
+    letter-spacing: 0px;
+    color: #23B574;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.submit-process-step {
+    display: flex;
+
+}
+
+.process-title.unreachable3 {
+    text-align: left;
+    font: normal normal normal 14px/16px Arial;
+    letter-spacing: 0px;
+    color: #303030;
+}
+
+.submit-step-menu {
+    display: flex;
+}
+
+.submit-menu-icon {
+    font-size: 200%;
+    margin-top: 3px;
+}
+.submit-menu-button{
+    background: white;
+    cursor: pointer;
+}

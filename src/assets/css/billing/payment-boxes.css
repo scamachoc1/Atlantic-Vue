@@ -28,6 +28,11 @@
     border-radius: 5px;
     padding: 5px;
 }
+.payment-box:hover{
+    background-color: #F6FFFB;
+    border: 1px solid #23B574;
+    cursor: pointer;
+}
 
 .payment-box.n1 {
     grid-area: box1;

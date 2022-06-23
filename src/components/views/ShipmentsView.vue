@@ -1,7 +1,9 @@
 <template>
   <MsgComponent msg='Shipments'/>
   <NotifContainerComponent />
+  <router-link to="/shipments/id">
   <ChartSearchComponent />
+  </router-link>
 </template>
 
 <script>
