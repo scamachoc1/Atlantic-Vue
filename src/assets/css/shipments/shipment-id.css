@@ -1,3 +1,82 @@
+.submit-process {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "a a b";
+}
+
+.submit-process-1 {
+    grid-area: a;
+}
+
+.submit-process-2_info {
+    margin-left: 60px;
+    grid-area: b;
+    background: #F6FFFB;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    padding: 24px 15px 10px 30px;
+}
+
+.double-grid-box {
+    border-bottom: 1px solid var(--border-color);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    margin: 15px 0;
+    align-items: center;
+}
+
+.double-grid-box.container.no-border-box {
+    border: none;
+}
+
+.bold-title {
+    text-align: left;
+    font: normal normal bold 14px/16px Arial;
+    letter-spacing: 0px;
+    color: #303030;
+}
+
+.normal-text {
+
+    text-align: left;
+    font: normal normal normal 14px/16px Arial;
+    letter-spacing: 0px;
+    color: #303030;
+
+    margin-bottom: 5px;
+}
+
+.submit-process-2_files {
+    display: flex;
+    margin-left: 5rem;
+}
+
+.file-icon,
+.file-icon i {
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    padding: 15px;
+    margin: 12px 2.5px 0 2.5px;
+    color: #707070;
+    font-size: 40px;
+}
+
+.light-text {
+    text-align: left;
+    font: normal normal normal 12px/14px Arial;
+    letter-spacing: 0px;
+    color: #303030;
+    text-align: center;
+    margin-top: 6px;
+}
+
+.file-icon:hover {
+    background: #F6FFFB;
+    border: 1px solid #23B574;
+}
+
+
 .process-icon {
     width: 30px;
     height: 30px;
@@ -89,7 +168,10 @@
     font-size: 200%;
     margin-top: 3px;
 }
-.submit-menu-button{
+
+.submit-menu-button {
     background: white;
     cursor: pointer;
 }
+
+.submit-process-2 {}
