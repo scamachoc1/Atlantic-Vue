@@ -45,7 +45,30 @@
           </div>
         </div>
       </div>
+
       <div class="line"></div>
+
+      <div class="delivery-order">
+        <p class="big-subtitle">Update Delivery Order</p>
+        <div class="delivery-order-fields">
+          <div class="delivery-field trucker-selection">
+            <p class="small-subtitle">Trucker Name</p>
+            <!--should be a sliding menu-->
+            <input class="input-delivery" placeholder="Select a Trucker" />
+          </div>
+          <div class="delivery-field warehouse-selection">
+            <p class="small-subtitle">Warehouse Destination</p>
+            <!--should be a sliding menu-->
+            <input class="input-delivery" placeholder="Select a Warehouse" />
+          </div>
+        </div>
+        <div class="button-update-container">
+          <button class="update-delivery-btn" type="submit">
+            <span class="btn-text">Update</span>
+          </button>
+        </div>
+      </div>
+      <div class="shipments-notes"></div>
     </div>
     <div class="submit-process-2">
       <div class="submit-process-2_info">
