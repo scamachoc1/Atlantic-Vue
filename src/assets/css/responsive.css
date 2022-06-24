@@ -3,9 +3,11 @@
         font-size: 101% !important;
         letter-spacing: 1px;
     }
-    .main-container{
+
+    .main-container {
         border-right: none;
     }
+
     .boxes {
         display: block;
         flex-direction: column;
@@ -79,12 +81,18 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-    
+
     }
-    .report-name{
+
+    .report-name {
         margin-bottom: 45px;
     }
-    .submit-process-2{
-        top: 500px;
+
+    .submit-process {
+        display: block !important;
+    }
+
+    .submit-process-2 {
+        margin-top: 20px;
     }
 }

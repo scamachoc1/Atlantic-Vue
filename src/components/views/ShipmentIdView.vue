@@ -68,7 +68,15 @@
           </button>
         </div>
       </div>
-      <div class="shipments-notes"></div>
+      <div class="shipments-notes">
+        <p class="big-subtitle">Shipments Notes</p>
+        <p class="small-light-subtitle">Here you can leave notes regarding the shipment.</p>
+        <div class="usernote-container">
+          <p class="user-note">Some note that the user left</p>
+          <p class="smallnote-date">02/20/2022 10:20AM</p>
+        </div>
+        <div class="usernote-field"></div>
+      </div>
     </div>
     <div class="submit-process-2">
       <div class="submit-process-2_info">
